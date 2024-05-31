@@ -30,6 +30,7 @@ public class Tres_D extends  FIGURASGEOMETRICAS{
     }
 
     public void calcularVolumen() {
+        System.out.println("Seleccione el tipo de figura");
 
     }
 }
