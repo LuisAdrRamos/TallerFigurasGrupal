@@ -28,4 +28,8 @@ public class Tres_D extends  FIGURASGEOMETRICAS{
     public void setAristas(double aristas) {
         this.aristas = aristas;
     }
+
+    public void calcularVolumen() {
+
+    }
 }
