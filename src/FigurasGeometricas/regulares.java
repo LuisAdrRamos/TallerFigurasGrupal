@@ -9,10 +9,10 @@ public class regulares extends DOS_D{
     public regulares() {
     }
 
-    public regulares(double area, double perimetro) {
+    public regulares(double area, double perimetro, int lados) {
         this.area = area;
         this.perimetro = perimetro;
-        this.lados
+        this.lados = lados;
     }
 
     public double getArea() {
@@ -31,11 +31,16 @@ public class regulares extends DOS_D{
         this.perimetro = perimetro;
     }
 
-    public double calcular_area () {
-
+    @Override
+    public int getLados() {
+        return lados;
     }
 
-    public double calcular_perimetro () {
-
+    @Override
+    public void setLados(int lados) {
+        this.lados = lados;
     }
-}
+
+
+
+
