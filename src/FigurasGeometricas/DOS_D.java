@@ -29,12 +29,12 @@ public class DOS_D extends FIGURASGEOMETRICAS{
         this.perimetro = perimetro;
     }
 
-    public double calcular_area () {
+    // public double calcular_area () {
 
-    }
+    // }
 
-    public double calcular_perimetro () {
+    // public double calcular_perimetro () {
 
-    }
+    // }
 }
 
