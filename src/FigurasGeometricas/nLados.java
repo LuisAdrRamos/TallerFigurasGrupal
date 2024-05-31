@@ -16,4 +16,5 @@ public class nLados extends otros_regulares{
     public void setnLados(int nLados) {
         this.nLados = nLados;
     }
+
 }
