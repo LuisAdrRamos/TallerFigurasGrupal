@@ -27,4 +27,9 @@ public class FIGURASGEOMETRICAS {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
+    public void imprimirDatos() {
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Lados: " + getLados());
+    }
 }
