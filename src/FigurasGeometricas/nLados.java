@@ -1,6 +1,6 @@
 package FigurasGeometricas;
 
-public class nLados extends otros_regulares{
+public class nLados extends Otras_Figuras{
     int nLados;
     public nLados() {
     }

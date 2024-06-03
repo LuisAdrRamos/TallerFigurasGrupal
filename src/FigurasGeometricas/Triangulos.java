@@ -1,6 +1,6 @@
 package FigurasGeometricas;
 
-public class Triangulos extends regulares {
+public class Triangulos extends DOS_D {
     Double base;
     Double altura;
     Double area;

@@ -1,4 +1,4 @@
 package FigurasGeometricas;
 
-public class Cuadrilateros {
+public class Cuadrilateros extends DOS_D{
 }
