@@ -28,7 +28,7 @@ public class Circulo extends Otras_Figuras{
         this.diametro = diametro;
     }
 
-    // Clcular area de un circulo
+    // Calcular area de un circulo
     public double area_circulo() {
         return Math.PI * Math.pow(radio, 2);
     }
