@@ -1,6 +1,6 @@
 package FigurasGeometricas;
 
-public class DOS_D extends FIGURASGEOMETRICAS{
+public class DOS_D extends FIGURASGEOMETRICAS {
 
     double area;
     double perimetro;
@@ -29,12 +29,6 @@ public class DOS_D extends FIGURASGEOMETRICAS{
         this.perimetro = perimetro;
     }
 
-    // public double calcular_area () {
 
-    // }
 
-    // public double calcular_perimetro () {
-
-    // }
 }
-
