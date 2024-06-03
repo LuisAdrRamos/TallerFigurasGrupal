@@ -48,10 +48,10 @@ public class FIGURASGEOMETRICAS {
         this.nombre = nombre;
     }
 
-    public void imprimirDatos() {
+    public void imprimirDatos(){
         System.out.println("Nombre: " + getNombre());
         System.out.println("Lados: " + getLados());
-        System.out.println("Base: " + getBase());
         System.out.println("Altura: " + getAltura());
+        System.out.println("Base: " + getBase());
     }
 }
