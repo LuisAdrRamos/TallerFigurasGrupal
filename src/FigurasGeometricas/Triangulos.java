@@ -73,7 +73,7 @@ public class Triangulos extends DOS_D {
     public double calcularDatosTrianguloEscaleno () {
         perimetro = lado1+lado2+lado3;
         double Sperim = perimetro/2;
-        area = Math.sqrt(Sperim*(Sperim-lado1)(Sperim-lado2)(Sperim-lado3));
+        area = Math.sqrt(Sperim*(Sperim-lado1)*(Sperim-lado2)*(Sperim-lado3));
         return area;
     }
     public void imprimirDatosTrianguloEscaleno() {
