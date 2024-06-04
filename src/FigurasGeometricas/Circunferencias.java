@@ -28,7 +28,7 @@ public class Circunferencias extends Otras_Figuras{
         this.radioSecundario = radioSecundario;
     }
 
-    public double calcularAreaCiruclo() {
+    public double calcularAreaCirculo() {
         area= Math.PI * radio * radio;
         perimetro = 2 * Math.PI * radio;
         return area;
