@@ -294,7 +294,7 @@ public class Main {
 
     public static void Nlados(){
         Scanner sc = new Scanner(System.in);
-        Nlados nlados1 = new Nlados();
+        nLados nlados1 = new nLados();
         int numlados;
 
         System.out.println("\nIngrese el numero de lados de su figura\n");
@@ -357,7 +357,7 @@ public class Main {
 
     public static void esferas(){
         Scanner sc = new Scanner(System.in);
-        Figuras_2D esfera = new Figuras_2D();
+        Tres_D esfera = new Tres_D();
         System.out.println("Ingrese el radio de la esfera");
         esfera.setRadio(sc.nextDouble());
 
@@ -367,7 +367,7 @@ public class Main {
 
     public static void cilindros() {
         Scanner sc = new Scanner(System.in);
-        Figuras_2D cilindro = new Figuras_2D();
+        Tres_D cilindro = new Tres_D();
         System.out.println("Ingrese el radio de la cilindro");
         cilindro.setRadio(sc.nextDouble());
         System.out.println("Ingrese la altura del cilindro");
@@ -379,7 +379,7 @@ public class Main {
 
     public static void cubos(){
         Scanner sc = new Scanner(System.in);
-        Figuras_2D cubo = new Figuras_2D();
+        Tres_D cubo = new Tres_D();
         System.out.println("Ingrese el area de la cara de la cubo");
         cubo.setArea(sc.nextDouble());
 
@@ -388,7 +388,7 @@ public class Main {
     }
 
     public static void Piramides () {
-        Figuras_2D  p1 = new Figuras_2D();
+        Tres_D  p1 = new Tres_D();
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Ingrese el area de la piramide: ");
@@ -402,7 +402,7 @@ public class Main {
     }
 
     public static void Prisma () {
-        Figuras_2D  prisma = new Figuras_2D();
+        Tres_D  prisma = new Tres_D();
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Ingrese el area del prisma: ");
