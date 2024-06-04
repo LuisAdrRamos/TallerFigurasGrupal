@@ -1,5 +1,5 @@
 package FigurasGeometricas;
-
+//Nlados
 public class nLados extends Otras_Figuras{
     double apotema;
     double tamlado;
