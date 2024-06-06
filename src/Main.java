@@ -94,7 +94,7 @@ public class Main {
                 default:
                     System.out.println("Ingrese un número válido (1, 2, 3, 4 o 5)."); // Mensaje de error para opción inválida
             }
-        } while (op != 4); // Repetir hasta que el usuario decida regresar al menú principal
+        } while (op != 5); // Repetir hasta que el usuario decida regresar al menú principal
     }
 
     // Método para gestionar las figuras 3D
@@ -143,7 +143,7 @@ public class Main {
                 default:
                     System.out.println("Ingrese un número válido (1, 2, 3, 4, 5 o 6)."); // Mensaje de error para opción inválida
             }
-        } while (op != 5); // Repetir hasta que el usuario decida regresar al menú principal
+        } while (op != 6); // Repetir hasta que el usuario decida regresar al menú principal
     }
 
     // Método para gestionar las circunferencias
@@ -247,13 +247,13 @@ public class Main {
                     t1.calcularDatosTrianguloEscaleno(); // Calcular los datos del triángulo escaleno
                     t1.imprimirDatosTrianguloEscaleno(); // Imprimir los datos del triángulo escaleno
                     break;
-                case 5:
+                case 4:
                     System.out.println("Regresando al menú principal...\n");
                     return; // Regresar al menú principal
                 default:
                     System.out.println("Ingrese un número válido (1, 2, 3 o 4)."); // Mensaje de error para opción inválida
             }
-        } while (op != 5); // Repetir hasta que el usuario decida regresar al menú principal
+        } while (op != 4); // Repetir hasta que el usuario decida regresar al menú principal
     }
 
     // Método para gestionar los cuadriláteros
