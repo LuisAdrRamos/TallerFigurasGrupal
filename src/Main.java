@@ -94,7 +94,7 @@ public class Main {
                 default:
                     System.out.println("Ingrese un número válido (1, 2, 3, 4 o 5)."); // Mensaje de error para opción inválida
             }
-        } while (op != 5); // Repetir hasta que el usuario decida regresar al menú principal
+        } while (op != 4); // Repetir hasta que el usuario decida regresar al menú principal
     }
 
     // Método para gestionar las figuras 3D
